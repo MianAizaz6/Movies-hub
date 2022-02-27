@@ -1,0 +1,28 @@
+*{
+  scroll-behavior: smooth;
+}
+.App{
+  min-height: 100vh;
+  background-color: var(--color-bg);
+  color: var(--color-primary);
+  padding-top: 130px;
+  padding-bottom: 70px;
+}
+
+@media (max-width:700px){
+  .app{
+    padding-top: 70px;
+  }
+}
+
+.pageTitle{
+  text-transform: capitalize;
+  display: flex;
+  justify-content: center;
+  padding: 4px;
+  border-radius: 50px;
+  font-size: 2vw;
+  font-family: var(--font-base);
+  color: var(--color-primary);
+  font-weight: 700;
+}
